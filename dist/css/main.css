@@ -58,6 +58,12 @@
       background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
       border-radius: 2%;
       border: solid 3px #eece1a; 
+     
+      position: absolute;
+      margin-top: 0 ;
+      margin-left: 0;
+      background-repeat: no-repeat;
+      background-size:100%;
       
     }
   .menu .nav-item {
@@ -164,11 +170,22 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
+ 
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid; 
+/*
+    background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
+  
+    position: absolute;
+    margin-top: 0 ;
+    margin-left: 0;
+    background-repeat: no-repeat;
+    background-size:100%;
+  */
+  }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
