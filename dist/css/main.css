@@ -261,13 +261,15 @@ main {
   height: 50rem;
 }
 .project-3{
-  background-image:url(../img/projects/project2.jpg);
+  background-image:url(../img/projects/project3.jpg);
+  background-size: cover;
+  height: 50rem;
 }
 .project-4{
-  background-image:url(../img/projects/project2.jpg);
+  background-image:url(../img/projects/project4.jpg);
 }
 .project-5{
-  background-image:url(../img/projects/project2.jpg);
+  background-image:url(../img/projects/project5.jpg);
 }
 
 .boxes {
