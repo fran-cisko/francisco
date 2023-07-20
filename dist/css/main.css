@@ -267,9 +267,13 @@ main {
 }
 .project-4{
   background-image:url(../img/projects/project4.jpg);
+  background-size: cover;
+  height: 50rem;
 }
 .project-5{
   background-image:url(../img/projects/project5.jpg);
+  background-size: cover;
+  height: 50rem;
 }
 
 .boxes {
