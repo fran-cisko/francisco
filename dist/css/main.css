@@ -171,11 +171,32 @@ main {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
  
-  .about-info .bio-image {
-    grid-area: bioimage;
-    margin: auto;
+  .bio-image-conainer{
+   
     border-radius: 50%;
     border: #eece1a 3px solid; 
+    width: 15rem;
+    height:15rem;
+    margin: auto;
+    background-size: cover;
+    grid-area: bioimage;
+    background-image: url(../img/foto-yo-1erplano2_cuadrada.jpg);
+    background-size: cover;
+    w
+  }
+    .bio-image{
+    max-width: 200%;
+  
+     
+
+  }
+  .about-info  {
+   
+    margin:auto;
+   
+    
+    
+
 /*
     background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
   
