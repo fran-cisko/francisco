@@ -53,9 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 320px;
-      height: 230px;
-      background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
+      width: 18rem;
+      height:20rem;
+      background: url("../img/mi-cara-portaretrato-fit.jpg");
       border-radius: 2%;
       border: solid 3px #eece1a; 
      
@@ -168,27 +168,28 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bio bio bioimage' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
  
   .bio-image-conainer{
    
-    border-radius: 50%;
+    border-radius: 1%;
     border: #eece1a 3px solid; 
     width: 15rem;
-    height:15rem;
+    height:17rem;
     margin: auto;
     background-size: cover;
     grid-area: bioimage;
-    background-image: url(../img/foto-yo-1erplano2_cuadrada.jpg);
+    background-image: url(../img/mi-cara-portaretrato-fit.jpg);
     background-size: cover;
     
   }
     .bio-image{
     max-width: 200%;
   
-     
-
+  }
+  .bio_p{
+    text-align: right;
   }
   .about-info  {
    
@@ -350,14 +351,14 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
+      background: url("../img/mi-cara-portaretrato-fit.jpg");
       width: 150px;
       height: 150px; 
       position: absolute;
       margin-top: 0 ;
       margin-left: 0;
       background-repeat: no-repeat;
-      background-size:100%;
+      background-size:cover;
     }
      
   .about-info {
