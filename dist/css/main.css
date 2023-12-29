@@ -173,23 +173,28 @@ main {
  
   .about-info .bio-image {
     grid-area: bioimage;
-    /*margin: auto;
+    margin: auto;
+    /*
       border-radius: 50%;
 
        background: url("../img/foto-yo-1erplano2_cuadrada.jpg");
       background-repeat: no-repeat;
       background-size:100%;
+
+    position: absolute;
+      margin-top: 0 ;
+      margin-left: 0;
+
     */
+      background: url("../img/foto_perfil_1.jpg");
+      background-repeat: no-repeat;
+      background-size:100%;
       width: 380px;
       height: 380px;
-   
       border-radius: 2%;
       border: solid 3px #eece1a; 
      
-      position: absolute;
-      margin-top: 0 ;
-      margin-left: 0;
-    
+      
       
     }
 /*
